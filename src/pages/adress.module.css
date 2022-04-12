@@ -1,0 +1,46 @@
+.divFormLocal{
+    height: 88vh;
+    display: inline-block;
+    font-size: 10px;
+    margin: 50px auto;
+    justify-content: center;
+}
+.formLocal{
+    display: grid;
+    width: 600px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+    border:1px solid black;
+    border-radius: 9px;
+    padding: 10px;
+}
+.formLocal input{
+    margin: 10px 0;
+    font-size: 20px;
+    height: 10px;
+    border-radius: 9px;
+    background-color: rgb(251, 251, 251);
+}
+.formLocal  button:not(:hover){
+    margin: 10px 0;
+    font-size: 20px;
+    padding: 5px;
+    background-color: white;
+    transition: 1s;
+    color: black;
+    border: 1px solid black ;
+    border-radius: 9px;
+
+}
+.formLocal button:hover{
+    margin: 10px 0;
+    font-size: 20px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid white ;
+    transition: 1s;
+    border-radius: 9px;
+}
+

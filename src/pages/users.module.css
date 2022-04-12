@@ -1,0 +1,108 @@
+.divDasPessoas{
+    display: grid;
+    grid-template-columns: auto ;
+    width: 1200px;
+    justify-content: center;
+    margin: 0 auto 50px auto;
+    gap: 50px;
+}
+.divPessoa{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-bottom: 6px;
+    width: 1200px;
+    transition: 2s;   
+}
+.h1C{
+    font-size: 40px;    
+}
+.divContent{
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    padding: 50px 0;
+    
+}
+.bgDaPessoa{
+    color: white;
+    background-color: black;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    font-size: 14px;
+}
+.divPessoa strong{
+    margin-left: 20px;
+}
+.divPessoa p{
+    margin-right: 20px;
+}
+.divPessoa:hover{
+    background-color:rgba(250, 250, 250, 0.793) ;
+    transition: 1s;
+}
+.divPessoa button {
+   
+}
+.divPessoa button:not(:hover){
+    margin: 2px 0;
+    font-size: 20px;
+    padding: 5px;
+    transition: 1s;
+    color: black;
+    border: 1px solid black ;
+    border-radius: 3px;
+    
+    width: 400px;
+}
+.divPessoa button:hover{
+    width: 450px;
+    margin: 2px 0;
+  
+    font-size: 20px;
+    padding: 5px;
+    
+    border: 1px solid white ;
+    transition: 1s;
+    border-radius: 3px;
+}
+.deleteBtn:not(:hover){
+    background-color:white;
+    color: rgb(255, 169, 169);
+}
+.deleteBtn:hover{
+    background-color: rgb(211, 7, 7);
+}
+.updateBtn:not(:hover){
+    background-color:white;
+}
+.updateBtn:hover{
+    background-color: rgb(97, 134, 255);
+}
+.firstBtn:not(:hover){
+    background-color:white;
+    
+}
+.firstBtn{
+    transition: 1s;
+    margin: 10px 0 50px 0;
+    padding: 20px;
+    width:300px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+.firstBtn:hover{
+    background-color: rgb(138, 253, 138);
+    width: 270px;
+    padding: 35px;
+    border: 1px solid rgb(168, 255, 168);
+}

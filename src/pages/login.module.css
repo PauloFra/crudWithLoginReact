@@ -1,0 +1,49 @@
+section{
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+section >div{
+    margin-top: 180px;   
+}
+.divLog{
+    width: 700px;
+    font-size: 20px;
+}
+.FormLogin{
+    display: grid;
+    text-align: left;
+    border-radius: 9px;
+    border: 1px solid black;
+    padding: 20px;
+    
+}
+input{
+    margin: 10px 0;
+    font-size: 20px;
+    border-radius: 9px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(255, 253, 250);
+}
+.FormLogin button:not(:hover){
+    margin: 10px 0;
+    font-size: 20px;
+    padding: 5px;
+    background-color: white;
+    transition: 1s;
+    color: rgb(25, 66, 133);
+    border: 1px solid rgb(25, 66, 133) ;
+    border-radius: 9px;
+}
+.FormLogin button:hover{
+    margin: 10px 0;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(25, 66, 133);
+    color: white;
+    border: 1px solid white ;
+    transition: 1s;
+    border-radius: 9px;
+}

@@ -1,0 +1,8 @@
+.divLoading{
+    height: 60vw;
+    margin-top: 200px;
+}
+.divLoading img{
+    max-width: 100%;
+    width: 80px;
+}

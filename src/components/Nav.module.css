@@ -1,0 +1,22 @@
+ul , li {
+    display: inline;
+}
+nav{
+    display: flex;
+    align-content: center;
+}
+nav a{
+    margin-right: 10px;
+    font-size: 20px;
+}
+nav button{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.divBtn{
+    display: flex;
+    align-items:center ;
+    align-content: center;
+    margin-right: 10px;
+    font-size: 20px;
+}
